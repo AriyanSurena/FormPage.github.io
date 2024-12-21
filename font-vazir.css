@@ -1,0 +1,44 @@
+@font-face {
+    font-family: vazir;
+    src: 
+     url(./fonts/Vazir-Black.eot),
+     url(./fonts/Vazir-Black.ttf),
+     url(./fonts/Vazir-Black.woff),
+     url(./fonts/Vazir-Black.woff2);
+}
+
+@font-face {
+    font-family: vazir-light;
+    src: 
+     url(./fonts/Vazir-Light.eot),
+     url(./fonts/Vazir-Light.ttf),
+     url(./fonts/Vazir-Light.woff),
+     url(./fonts/Vazir-Light.woff2);
+}
+
+@font-face {
+    font-family: vazir-bold;
+    src: 
+     url(./fonts/Vazir-Bold.eot),
+     url(./fonts/Vazir-Bold.ttf),
+     url(./fonts/Vazir-Bold.woff),
+     url(./fonts/Vazir-Bold.woff2);
+}
+
+@font-face {
+    font-family: vazir-medium;
+    src: 
+     url(./fonts/Vazir-Mediom.eot),
+     url(./fonts/Vazir-Mediom.ttf),
+     url(./fonts/Vazir-Mediom.woff),
+     url(./fonts/Vazir-Mediom.woff2);
+}
+
+@font-face {
+    font-family: vazir-thin;
+    src: 
+     url(./fonts/Vazir-Thin.eot),
+     url(./fonts/Vazir-Thin.ttf),
+     url(./fonts/Vazir-Thin.woff),
+     url(./fonts/Vazir-Thin.woff2);
+}

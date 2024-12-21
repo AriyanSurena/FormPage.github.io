@@ -1,0 +1,419 @@
+/*
+***** index.html style's section in "style.css" file
+***** Written by Ariyan Surena 
+***** 1402 . 8 . 24
+*/
+.index-page-body-style {
+    margin: 0; 
+    padding: 0; 
+    width: auto;  
+}
+
+div.index-page-form
+{
+    background-color: darkcyan;
+    width: 25rem;
+    height: 30rem;
+    display: block;
+    margin: 3rem auto;
+    padding: 0.5rem 3rem;
+    border-radius: 1rem;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    box-sizing: border-box;
+}
+
+
+@media (max-width:330px)
+{
+    div.index-page-form
+    {
+        width: 18rem;
+        margin: 3rem 1rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (min-width:330px) and (max-width:380px)
+{
+    div.index-page-form
+    {
+        width: 21rem;
+        margin: 3rem 1rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (min-width:381px) and (max-width:430px)
+{
+    div.index-page-form
+    {
+        width: 24rem;
+        margin: 3rem 1rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+div div.index-page-form-header 
+{
+    display: block;
+    font-family: vazir;
+    text-align: right;
+}
+
+.index-page-form-header-title
+{
+    color: brown;
+    font-family: vazir;
+    margin-bottom: 3rem;
+}
+
+div div.index-page-form-options
+{
+    display: block;
+}
+
+.btn 
+{
+    display: block;
+    margin: 1rem auto;
+    padding: 1.5rem 5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #63adaf94;
+    font-family: vazir;
+    font-size: larger;
+    width: 100%;
+}
+
+.btn:hover 
+{
+    background-color: rgb(185, 228, 250);
+    border-bottom: .2rem solid black;
+    border-right: .2rem solid black;
+}
+
+.a-text-decoration-none
+{
+    text-decoration: none;
+}
+
+/*
+***** registery.html style's section in "style.css" file
+***** Written by Ariyan Surena 
+***** 1402 . 8 . 24
+*/
+.registery-page-form
+{
+    width: 32rem;
+    margin: 3rem auto;
+    padding: 1rem;
+    background-color: darkcyan;
+    display: block;
+    font-family: vazir;
+    border-radius: 1rem;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-right-radius: 0px;
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-right-color: black;
+}
+
+.registery-pf-label
+{
+    display: block;
+    padding: 1rem 0.5rem;
+}
+
+.registery-pf-input
+{
+    width: 93%;
+    border: none;
+    border-radius: 0.5rem;
+    padding:1rem;
+    background-color:aliceblue;
+    font-family: vazir;
+}
+
+.registery-pf-input:hover
+{
+    width: 94%;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    outline: none;
+    background-color:aquamarine;
+}
+
+.registery-pf-input:focus 
+{
+    width: 95%;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    outline: none;
+    background-color:#6ffdcd;
+}
+
+.registery-pf-input::placeholder
+{
+    text-align: right;
+    color: rgb(118, 118, 118);
+}
+
+.registery-pf-input-rtl
+{
+    text-align: right;
+}
+
+.registery-pf-input-ltr
+{
+    text-align: left;
+}
+
+.registery-pf-input-center
+{
+    text-align: center;
+    direction: rtl;
+}
+
+.registery-page-form #registery-rule-div
+{
+    margin: 1.5rem 0rem;
+    height: 40px;
+    display: block;
+}
+
+.registery-page-form #registery-rule-div #registery-rule-title
+{
+    padding-right: 3rem;
+    position: relative;
+    bottom: 0.6rem;
+}
+
+.registery-page-form #registery-rule-div #checkbox 
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 11.25rem;
+    top: 0rem;
+    padding: 1rem;
+    margin: 0rem 0.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    appearance: none;
+    background-color: #eee;
+}
+
+.registery-page-form #registery-rule-div #checkbox:hover
+{
+    background-color:#ccccccaf;
+}
+
+.registery-page-form #registery-rule-div #checkbox:checked
+{
+    background-color:blue;
+}
+
+.registery-page-form #registery-rule-div #checkbox:checked ~ .checkboxmark
+{
+    border: 8px solid white;
+    border-radius: 4px;
+    content: " ";
+    display: inline-block;
+    width: 8px;
+    height: 15px;
+    position: relative;
+    bottom: 0.45rem;
+    left: 13.6rem;
+    transform: rotate(45deg);
+    border-top: none;
+    border-left: none;
+}
+
+@media (max-width:320px)
+{
+    .registery-page-form
+    {
+        width: 15rem;
+        margin: 3rem auto;
+        padding: 1rem;
+        background-color: darkcyan;
+        display: block;
+        font-family: vazir;
+        border-radius: 1rem;
+        border-bottom-width: 10px;
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        border-bottom-right-radius: 0px;
+        border-right-width: 10px;
+        border-right-style: solid;
+        border-right-color: black;
+    }
+    .registery-pf-input
+    {
+        width: 85%;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        background-color: aliceblue;
+        font-family: vazir;
+    }
+    .registery-page-form #registery-rule-div #checkbox:checked ~ .checkboxmark
+    {
+        border: 8px solid white;
+        border-radius: 4px;
+        content: " ";
+        display: inline-block;
+        width: 0.5rem;
+        height: 1rem;
+        position: relative;
+        bottom: 39px;
+        left: -10px;
+        transform: rotate(45deg);
+        border-top: none;
+        border-left: none;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width:321px) and (max-width:375px)
+{
+    .registery-page-form
+    {
+        width: 22rem;
+        margin: 3rem auto;
+        padding: 1rem;
+        background-color: darkcyan;
+        display: block;
+        font-family: vazir;
+        border-radius: 1rem;
+        border-bottom-width: 10px;
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        border-bottom-right-radius: 0px;
+        border-right-width: 10px;
+        border-right-style: solid;
+        border-right-color: black;
+    }
+    .registery-pf-input
+    {
+        width: 90%;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        background-color: aliceblue;
+        font-family: vazir;
+    }
+}
+
+@media (min-width:375px) and (max-width:426px)
+{
+    .registery-page-form
+    {
+        width: 18rem;
+        margin: 3rem auto;
+        padding: 1rem;
+        background-color: darkcyan;
+        display: block;
+        font-family: vazir;
+        border-radius: 1rem;
+        border-bottom-width: 10px;
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        border-bottom-right-radius: 0px;
+        border-right-width: 10px;
+        border-right-style: solid;
+        border-right-color: black;
+    }
+    .registery-pf-input
+    {
+        width: 90%;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        background-color: aliceblue;
+        font-family: vazir;
+    }
+}
+/*
+***** login.html style's section in "style.css" file
+***** Written by Ariyan Surena 
+***** 1402 . 8 . 24
+*/
+.login-page-form
+{
+    background-color: darkcyan;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 10px;
+    border-bottom-right-radius: unset;
+    width: 30rem;
+    margin: 5rem auto;
+    padding: 0.5rem 2rem;
+    font-family: vazir;
+    background-color: darkcyan;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 10px;
+    border-bottom-right-radius: unset;
+    width: 30rem;
+    margin: 5rem auto;
+    padding: 0.5rem 2rem;
+    font-family: 'vazir';
+    font-size: x-large;
+}
+
+@media (max-width:330px)
+{
+    .login-page-form
+    {
+        font-size: larger;
+        width: 16rem;
+        margin: 10rem auto;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (min-width:330px) and (max-width:380px)
+{
+    .login-page-form
+    {
+        font-size: larger;
+        width: 20rem;
+        margin: 10rem auto;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (min-width:381px) and (max-width:430px)
+{
+    .login-page-form
+    {
+        font-size: larger;
+        width: 22rem;
+        margin: 10rem auto;
+        padding: 0.5rem 1rem;
+    }
+}
+.login-page-btn 
+{
+    display: block;
+    margin: 3rem auto 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #63adaf94;
+    font-family: vazir;
+    font-size: larger;
+    width: 91%;
+}
+
+.login-page-btn:hover 
+{
+    background-color: rgb(185, 228, 250);
+    border-bottom: .2rem solid black;
+    border-right: .2rem solid black;
+}

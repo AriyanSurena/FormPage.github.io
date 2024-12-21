@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html  lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="./font-vazir.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>Registery page</title>
+    </head>
+    
+    <body>
+        <form class="registery-page-form" action="#">
+            <h1 style="color: brown;">فرم ثبت نام</h1>
+            <div>
+                <label for="user-first-name" class="registery-pf-label">نام :</label>
+                <input type="text" name="user-first-name" id="user-first-name" class="registery-pf-input registery-pf-input-rtl" placeholder="لطفا نام را وارد کنید">
+                <label for="user-last-name" class="registery-pf-label">نام خانوادگی :</label>
+                <input type="text" name="user-last-name" id="user-last-name" class="registery-pf-input registery-pf-input-rtl" placeholder="لطفا نام خانوادگی را وارد کنید">
+                <label for="user-birthdate" class="registery-pf-label">تاریخ تولد :</label>
+                <input type="date" name="user-birthdate" id="user-birthdate" class="registery-pf-input registery-pf-input-center">
+                <label for="user-phonenumber" class="registery-pf-label">شماره تلفن :</label>
+                <input type="tel" name="user-phonenumber" id="user-phonenumber" class="registery-pf-input registery-pf-input-ltr" placeholder="لطفا شماره تلفن را وارد کنید">
+                <label for="user-mailaddress" class="registery-pf-label">آدرس پست الکترونیکی :</label>
+                <input type="email" name="user-mailaddress" id="user-mailaddress" class="registery-pf-input registery-pf-input-ltr" placeholder="لطفا آدرس  پست الکترونیک را وارد کنید">
+                <label for="user-account-password" class="registery-pf-label">پسورد :</label>
+                <input type="password" name="user-account-password" id="user-account-password" class="registery-pf-input registery-pf-input-ltr" placeholder=" لطفا پسورد را وارد کنید">
+                <label for="user-account-confirmpassword" class="registery-pf-label">تکرار پسورد :</label>
+                <input type="password" name="user-account-password" id="user-account-confirmpassword" class="registery-pf-input registery-pf-input-ltr" placeholder=" لطفا پسورد را تایید کنید">
+                <div id="registery-rule-div">
+                    <label for="checkbox" id="registery-rule-title"> قوانین را قبول دارم.</label>
+                    <input type="checkbox" id="checkbox">
+                    <span class="checkboxmark"></span>
+                </div>
+
+                <div>
+                    <button class="btn">ثبت نام</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
